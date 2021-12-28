@@ -5,18 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
   <title>Word Frequency Counter</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>Contador de palavras</h1>
   </header>
 
   <main class="container">
 
-    <section id="inputString">
-      <textarea name="inputString" id="inputString" spellcheck="true">
+    <section id="inputString" class="inputString">
+      <textarea name="inputString" class="pasteText" spellcheck="true">
         Cole o seu texto aqui!
       </textarea>
       <button class="countWords">Conte as palavras</button>

@@ -1,0 +1,97 @@
+/* Global =================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  max-width: 1114px;
+  margin: 0 auto;
+  font-family: "Caveat", cursive;
+
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+}
+
+:root {
+  --color-main: #f9f7e8;
+  --color-text: #333;
+  --color-accent: #61bfad;
+  --color-dark: #ddd;
+  --width-max: 30rem;
+}
+
+/* Header =================================================================== */
+.header {
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Section inputString ====================================================== */
+.inputString {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+.pasteText {
+  height: 30vh;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+
+  color: var(--color-text);
+  border: 1px solid var(--color-dark);
+  outline: none;
+}
+
+.pasteText:focus {
+  border: 1px solid rgb(95, 44, 130);
+}
+
+.countWords {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 8px 0;
+
+  font: 600 20px "Caveat", sans-serif;
+  color: var(--color-main);
+  background: linear-gradient(to right, rgb(95, 44, 130), rgb(73, 160, 157));
+  border: 1px solid var(--color-dark);
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+.countWords:hover {
+  opacity: 0.7;
+}
+
+/* Footer =================================================================== */
+.footer {
+  height: 100px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  height: 40px;
+  margin-right: 2rem;
+}
+
+.footer i {
+  color: #7d2fa3;
+}
+
+.footer strong {
+  color: #7d2fa3;
+}
