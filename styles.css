@@ -32,7 +32,6 @@ body {
 
 /* Header =================================================================== */
 .header {
-  height: 100px;
   text-align: center;
   padding: 20px;
   font-size: 20px;
@@ -141,7 +140,6 @@ td {
 /* Footer =================================================================== */
 .footer {
   grid-area: footer;
-  height: 100px;
   width: 100%;
 
   display: flex;
@@ -152,16 +150,17 @@ td {
   font: 400 14px "Roboto", sans-serif;
 }
 
-.footer i {
-  color: #7d2fa3;
-}
-
-.footer strong {
-  color: #7d2fa3;
+.footer i { 
+  color: var(--color-accent);
 }
 
 .footer a {
   text-decoration: none;
   color: var(--color-accent);
-  padding: 15px;
+}
+
+.icons a{
+  text-decoration: none;
+  color: var(--color-accent);
+  padding: 15px
 }
