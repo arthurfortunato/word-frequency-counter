@@ -11,6 +11,14 @@
   box-sizing: inherit;
 }
 
+:root {
+  --color-main: #f9f7e8;
+  --color-text: #333;
+  --color-blue: #243b55;
+  --color-dark: #ddd;
+  --width-max: 30rem;
+}
+
 body {
   height: 100vh;
   max-width: 1114px;
@@ -18,25 +26,15 @@ body {
   font-family: "Caveat", cursive;
 
   display: grid;
-  grid-template-rows: 100px 1fr 150px;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-rows: 100px 1fr 100px;
 }
 
-:root {
-  --color-main: #f9f7e8;
-  --color-text: #333;
-  --color-accent: #243b55;
-  --color-dark: #ddd;
-  --width-max: 30rem;
-}
 
 /* Header =================================================================== */
 .header {
   text-align: center;
   padding: 20px;
   font-size: 20px;
-
-  grid-area: header;
 }
 
 /* Scrollbar ================================================================ */
@@ -59,7 +57,6 @@ body {
 
 /* Section inputString ====================================================== */
 .container {
-  grid-area: main;
   overflow: auto;
 }
 .container ::-webkit-scrollbar {
@@ -117,10 +114,10 @@ table {
 }
 
 th {
-  border: 1px solid var(--color-accent);
+  border: 1px solid var(--color-blue);
   padding: 0.5rem 0.5rem;
   text-align: center;
-  background-color: var(--color-accent);
+  background-color: var(--color-blue);
   color: white;
 }
 
@@ -139,7 +136,6 @@ td {
 
 /* Footer =================================================================== */
 .footer {
-  grid-area: footer;
   width: 100%;
 
   display: flex;
@@ -151,16 +147,16 @@ td {
 }
 
 .footer i { 
-  color: var(--color-accent);
+  color: var(--color-blue);
 }
 
 .footer a {
   text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-blue);
 }
 
 .icons a{
   text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-blue);
   padding: 15px
 }
