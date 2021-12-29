@@ -54,6 +54,7 @@ body {
   max-width: 1114px;
   margin: 0 auto;
   width: 90%;
+  height: 500px;
 }
 
 .container ::-webkit-scrollbar {
