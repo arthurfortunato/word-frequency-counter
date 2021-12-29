@@ -18,7 +18,7 @@ body {
   grid-template-rows: 100px 1fr 100px;
 
   height: 100vh;
-  max-width: 1114px;
+  width: 100%;
   margin: 0 auto;
   font-family: "Caveat", cursive;
 }
@@ -52,6 +52,9 @@ body {
 /* Section inputString ====================================================== */
 .container {
   overflow: auto;
+  max-width: 1114px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .container ::-webkit-scrollbar {
