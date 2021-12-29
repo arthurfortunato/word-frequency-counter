@@ -51,8 +51,7 @@ body {
 .container {
   overflow: auto;
   max-width: 1114px;
-  max-height: 600px;
-  margin: 0 auto;
+ 
   width: 90%;
 }
 
