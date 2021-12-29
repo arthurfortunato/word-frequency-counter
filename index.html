@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
-  <title>Word Frequency Counter</title>
+  <title>Conte as palavras</title>
 </head>
 
 <body>
@@ -20,11 +20,11 @@
 
   <main class="container">
 
-    <section id="inputString" class="inputString">
-      <textarea name="inputString" class="pasteText" spellcheck="true">
+    <section name="inputString" id="inputString" class="inputString">
+      <textarea name="pasteText" class="pasteText" spellcheck="true">
         Cole o seu texto aqui!
       </textarea>
-      <button class="countWords">Conte as palavras</button>
+      <button type="button" id="#countWords" class="countWords" onclick="processData()">Conte as palavras</button>
     </section>
 
     <section id="wordTable">
@@ -49,7 +49,8 @@
     </p>
   </footer>
 
-  <script src="https://kit.fontawesome.com/b37b8b8e5b.js" crossorigin="anonymous"></script>
 </body>
+<script src="https://kit.fontawesome.com/b37b8b8e5b.js" crossorigin="anonymous"></script>
+<script src="./script2.js"></script>
 
 </html>
