@@ -19,7 +19,6 @@ body {
 
   height: 100vh;
   width: 100%;
-  margin: 0 auto;
   font-family: "Caveat", cursive;
 }
 
@@ -54,7 +53,7 @@ body {
   overflow: auto;
   max-width: 1114px;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
 }
 
 .container ::-webkit-scrollbar {
@@ -62,11 +61,7 @@ body {
 }
 
 .inputString {
-  display: flex;
-  flex-direction: column;
-  
-  margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .pasteText {
@@ -104,9 +99,8 @@ body {
 
 /* Table ==================================================================== */
 table {
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
-  margin: 0 auto;
   text-align: center;
   font: 400 0.8rem "Roboto", sans-serif;
 }
