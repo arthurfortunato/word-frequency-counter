@@ -14,8 +14,10 @@
 }
 
 body {
-  display: grid;
-  grid-template-rows: 100px 1fr 100px;
+ /*  display: grid;
+  grid-template-rows: 100px 1fr 100px; */
+  display: flex;
+  flex-direction: column;
 
   height: 100vh;
   width: 100%;
@@ -54,7 +56,7 @@ body {
   max-width: 1114px;
   margin: 0 auto;
   width: 90%;
-  height: 500px;
+  height: 800px;
 }
 
 .container ::-webkit-scrollbar {
@@ -132,9 +134,7 @@ td {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-
   font: 400 1rem "Roboto", sans-serif;
 }
 
