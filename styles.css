@@ -22,13 +22,6 @@ body {
   font-family: "Caveat", cursive;
 }
 
-/* Header =================================================================== */
-.header {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 1.2rem;
-}
-
 /* Scrollbar ================================================================ */
 
 ::-webkit-scrollbar {
@@ -47,18 +40,27 @@ body {
   background: #555;
 }
 
-/* Section inputString ====================================================== */
+/* Header =================================================================== */
+.header {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+
+/* Main ===================================================================== */
 .container {
   overflow: auto;
   max-width: 1114px;
   margin: 0 auto;
   width: 90%;
+  height: calc(100vh - 250px)
 }
 
 .container ::-webkit-scrollbar {
   display: none;
 }
 
+/* Section inputString ====================================================== */
 .inputString {
   width: 100%;
 }
